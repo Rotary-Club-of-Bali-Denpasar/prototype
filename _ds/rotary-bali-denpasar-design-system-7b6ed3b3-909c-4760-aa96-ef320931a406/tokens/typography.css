@@ -1,0 +1,25 @@
+:root{
+/* Primary (headlines, nav, UI): Frutiger if licensed → Open Sans (free) → Arial */
+--font-sans:'Frutiger','Open Sans',Arial,'Helvetica Neue',sans-serif;
+/* Secondary (body, secondary headlines, captions): Sentinel if licensed → Georgia (free) */
+--font-serif:'Sentinel',Georgia,'Times New Roman',serif;
+--size-display:48px;
+--size-h1:39px;
+--size-h2:31px;
+--size-h3:25px;
+--size-h4:20px;
+--size-body-lg:19px;
+--size-body:17px;
+--size-ui:15px;
+--size-small:14px;
+--size-caption:13px;
+--weight-light:300;
+--weight-regular:400;
+--weight-semibold:600;
+--weight-bold:700;
+--weight-heavy:800;
+--leading-tight:1.1;
+--leading-heading:1.2;
+--leading-body:1.6;
+--tracking-caps:0.08em;
+}

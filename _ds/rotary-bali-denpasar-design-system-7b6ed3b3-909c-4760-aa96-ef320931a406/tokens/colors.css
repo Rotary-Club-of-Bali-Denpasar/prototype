@@ -1,0 +1,54 @@
+:root{
+/* Primary — Rotary brand colors (PMS refs in readme) */
+--royal-blue:#17458f; /* PMS 286C — "Rotary" wordmark */
+--gold:#f7a81b; /* PMS 130C — wheel / Mark of Excellence */
+--azure:#0067c8; /* PMS 2175C — one-color signature */
+/* Secondary brights */
+--sky-blue:#00a2e0; /* PMS 2202C */
+--cranberry:#d41367; /* PMS 214C */
+--cardinal:#e02927; /* PMS 485C */
+--turquoise:#00adbb; /* PMS 7466C */
+--orange:#ff7600; /* PMS 2018C */
+--violet:#901f93; /* PMS 2070C */
+--grass:#009739; /* PMS 355C */
+/* Pastel accents */
+--powder-blue:#b9d9eb; /* PMS 290C */
+--moss:#a7aca2; /* PMS 7537C */
+--lavender:#c6bcd0; /* PMS 665C */
+--taupe:#d9c89e; /* PMS 7501C */
+/* Cool neutrals */
+--stone:#9ba4b4; /* PMS 2162C */
+--slate:#657f99; /* PMS 2165C */
+--charcoal:#54565a; /* Cool Gray 11C */
+--pewter:#898a8d; /* Cool Gray 8C */
+--smoke:#b1b1b1; /* Cool Gray 5C */
+--silver:#d0cfcd; /* Cool Gray 2C */
+/* Warm neutrals */
+--storm:#7a6e66; /* Warm Gray 10C */
+--ash:#968b83; /* Warm Gray 7C */
+--platinum:#bfb7b0; /* Warm Gray 3C */
+--cloud:#d6d1ca; /* Warm Gray 1C */
+--white:#ffffff;
+--black:#000000;
+/* Semantic aliases */
+--surface-page:var(--white);
+--surface-tint:#eef5fa; /* Powder Blue 25% on white — section bands */
+--surface-navy:var(--royal-blue); /* dark bands, footer */
+--surface-card:var(--white);
+--text-heading:var(--royal-blue);
+--text-body:var(--charcoal);
+--text-muted:var(--pewter);
+--text-on-navy:var(--white);
+--text-on-gold:var(--royal-blue);
+--link:var(--azure);
+--link-hover:var(--royal-blue);
+--cta-bg:var(--gold);
+--cta-text:var(--royal-blue);
+--border:var(--silver);
+--border-strong:var(--smoke);
+--focus-ring:var(--azure);
+--success:var(--grass);
+--info:var(--sky-blue);
+--warning:var(--orange);
+--danger:var(--cardinal);
+}
